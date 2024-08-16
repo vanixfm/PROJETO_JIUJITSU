@@ -1,0 +1,18 @@
+
+select,input[type=text],[type=email],[type=password],[type=date] {
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    box-shadow: 1px 1px 2px #333333;
+    -moz-box-shadow: 1px 1px 2px #333333;
+    -webkit-box-shadow: 1px 1px 2px #333333;
+    background: #cccccc;
+    border: 1px solid #000000;
+    margin: 1%;
+    width: 47%;
+    height:30px;
+}
+select:hover,input[type=text]:hover,[type=email]:hover,[type=password]:hover,[type=date]:hover {
+    background: #ffffff;
+    border: 1px solid #990000;
+}
